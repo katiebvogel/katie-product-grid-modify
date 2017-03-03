@@ -1,0 +1,2 @@
+
+Template.evereveCore.replaces("coreLayout");

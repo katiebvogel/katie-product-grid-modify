@@ -1,0 +1,12 @@
+<template name="evereveContent">
+  <div class="grid-content">
+    <h1>I've modified content.html.  What up!?</h1>
+    <a href="{{pathFor 'product' handle=handle}}" data-event-category="grid" data-event-action="product-click" data-event-label="grid product click" data-event-value="{{_id}}">
+      <div class="overlay">
+        <div class="overlay-title">{{title}}</div>
+        <div class="currency-symbol">This is the price: {{formatPrice displayPrice}}</div>
+        <div class="color-choices">Here is more info: {{displayMeta}}</div>
+      </div>
+    </a>
+  </div>
+</template>
